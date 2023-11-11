@@ -10,3 +10,10 @@
 ---
 ### About me:
 I am 33, I like watching movies and tv shows in english, eager to learn web development.
+
+---
+### Skills:
+* HTML
+* CSS
+* Javascript
+* GIT
