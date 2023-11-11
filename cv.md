@@ -17,3 +17,15 @@ I am 33, I like watching movies and tv shows in english, eager to learn web deve
 * CSS
 * Javascript
 * GIT
+
+---
+### Code example:
+```
+function narcissistic(value) {
+  let str = String(value).split(''),result = 0;
+  str.forEach(element => {
+    result += Math.pow(Number(element),str.length);
+  });
+  return(value == result ? true : false);
+}
+```
