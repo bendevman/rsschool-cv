@@ -29,3 +29,11 @@ function narcissistic(value) {
   return(value == result ? true : false);
 }
 ```
+---
+### Education: 
+* __University:__ 2019 Moscow Financial and Industrial University / Applied informatics
+* __Courses:__ RS-School Course «JavaScript/Front-end»(in progress)
+
+---
+### Languages:
+  * __English__ - _B1_
