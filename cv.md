@@ -17,3 +17,17 @@ I am 33, I like watching movies and tv shows in english, eager to learn web deve
 * CSS
 * Javascript
 * GIT
+
+---
+### Code example:
+```
+class Animal {
+  constructor(name, type){
+    this.name = name 
+    this.type = type
+  }
+  toString(){
+    return `${this.name} is a ${this.type}`    
+  }
+}
+```
