@@ -31,3 +31,6 @@ class Animal {
   }
 }
 ```
+---
+### Education
+* **University:** Moscow Financial and Industrial University — Bachelor of Applied informatics
