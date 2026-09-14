@@ -165,7 +165,22 @@ body {
 .skills__item {
   padding-top: 5px;
 }
+.code-example {
+  margin: 10px 100px;
+}
+.Experience {
+  margin: 10px 100px;
+  list-style: disc;
+}
+.Experience__title {
+  display: inline-block;
+  padding-bottom: 10px;
+}
 
+.Experience__link {
+  color: #000;
+  padding: 5px;
+}
 
 
 
