@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon" />
+  <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
@@ -11,7 +11,7 @@
   <div class="header section">
     <div class="logo">
       <a href="index.html" class="logo__link">
-        <img class="logo__img" src="img/favicon-32x32.png" alt="logo" srcset="">
+        <img class="logo__img" src="img/favicon-32x32.png" alt="logo">
       </a>
     </div>
     <ul class="nav">
@@ -46,13 +46,15 @@
         <span class="profession h4">Full stack developer</span>
       </li>
       <li class="info__item">
-        <ul class="contacts" id="Contact">
+        <div class="contacts">
           <span class="contacts__title h2">Contacts</span>
-          <li class="contacts__item"><span class="h3">E-mail:</span> bendevman@gmail.com</li>
-          <li class="contacts__item"><span class="h3">Phone:</span> +79788624792</li>
-          <li class="contacts__item"><span class="h3">Discord:</span> Asan(@bendevman)</li>
-          <li class="contacts__item"><span class="h3">Telegram:</span> @bendevman</li>
-        </ul>
+          <ul class="contacts_list" id="Contact">
+            <li class="contacts__item"><span class="h3">E-mail:</span> bendevman@gmail.com</li>
+            <li class="contacts__item"><span class="h3">Phone:</span> +79788624792</li>
+            <li class="contacts__item"><span class="h3">Discord:</span> Asan(@bendevman)</li>
+            <li class="contacts__item"><span class="h3">Telegram:</span> @bendevman</li>
+          </ul>
+        </div>
       </li>
       <li class="info__item">
         <div class="about-me" id="About_Me">
@@ -61,13 +63,15 @@
         </div>
       </li>
       <li class="info__item">
-        <ul class="skills" id="Skills">
+        <div class="skills">
           <span class="skills__title h2">Skills</span>
-          <li class="skills__item">HTML</li>
-          <li class="skills__item">CSS</li>
-          <li class="skills__item">javascript</li>
-          <li class="skills__item">GIT</li>
-        </ul>
+          <ul class="skills__list" id="Skills">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">javascript</li>
+            <li class="skills__item">GIT</li>
+          </ul>
+        </div>
       </li>
       <li class="info__item">
         <div class="code-example" id="Code_Example">
@@ -88,23 +92,40 @@
         </div>
       </li>
       <li class="info__item">
-        <ul class="Experience" id="Experience">
+        <div class="Experience">
+
           <span class="Experience__title h2">Experience</span>
-          <li class="Experience__item">
-            <a class="Experience__link h3" href="https://bendevman-nonograms.netlify.app/">Nonograms</a>
-          </li>
-          <li class="Experience__item">
-            <a class="Experience__link h3" href="https://bendevman-hangman.netlify.app">Hangman</a>
-          </li>
-          <li class="Experience__item">
-            <a class="Experience__link h3" href="https://bendevman-coffee-house.netlify.app">Coffee House</a>
-          </li>
-          <li class="Experience__item">
-            <a class="Experience__link h3" href="https://bendevman-christmas-shop.netlify.app/">Christmas Shop</a>
-          </li>
-        </ul>
+          <ul class="Experience__list" id="Experience">
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-nonograms.netlify.app/">Nonograms</a>
+            </li>
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-hangman.netlify.app">Hangman</a>
+            </li>
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-coffee-house.netlify.app">Coffee House</a>
+            </li>
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-christmas-shop.netlify.app/">Christmas Shop</a>
+            </li>
+          </ul>
+        </div>
       </li>
-      <!-- <li class="info__item"></li> -->
+      <li class="info__item">
+        <div class="Education" id="Education">
+          <span class="Education__title h2">Education</span>
+          <span>Moscow Financial and Industrial University — Bachelor of Applied informatics</span>  
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="Languages">
+          <span class="Languages__title h2">Languages</span>
+          <ul class="Languages__list" id="Languages">
+            <li class="Languages__item">Russian - Native</li>
+            <li class="Languages__item">English - C1</li>
+          </ul>
+        </div>
+      </li>
     </ul>
   </div>
   <div class="footer section">

@@ -156,6 +156,8 @@ body {
 }
 .skills {
   margin: 10px 100px;
+}
+.skills__list {
   list-style: disc;
 }
 .skills__title {
@@ -170,7 +172,9 @@ body {
 }
 .Experience {
   margin: 10px 100px;
-  list-style: disc;
+}
+.Experience__list {
+ list-style: disc;
 }
 .Experience__title {
   display: inline-block;
@@ -181,7 +185,28 @@ body {
   color: #000;
   padding: 5px;
 }
+.Education {
+  margin: 10px 100px;
 
+}
+.Education__title {
+  display: block;
+  padding-bottom: 10px;
+}
+.Languages {
+  margin: 10px 100px;
+}
+.Languages__list{
+  list-style: disc;
+}
+.Languages__item {
+  padding: 5px;
+}
+.Languages__title {
+  display: inline-block;
+  padding-bottom: 10px;
+
+}
 
 
 
