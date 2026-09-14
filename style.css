@@ -1,4 +1,4 @@
-@import url('fonts.css');
+@import url('fonts/fonts.css');
 
 *,*:before,*:after {
   box-sizing: border-box;
@@ -58,15 +58,17 @@ body {
 }
 .p {
   font-family: 'Inter', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
 }
 .section {
   width: 100%;
+  padding: 10px;
   overflow: hidden;
   min-width: 320px;
   max-width: 1024px;
 }
+/* header */
 .header {
   display: flex;
   padding: 10px;
@@ -95,4 +97,24 @@ body {
 }
 .nav__link:hover {
   text-decoration: underline;
+}
+/* footer */
+.footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github-link {
+  color: #000;
+}
+.git-logo-icon {
+  fill: #ccc;
+  width: 50px;
+  height: 50px;
+}
+.rs-school-logo-icon {
+  fill: #000;
+  width: 60px;
+  height: 30px;
 }
