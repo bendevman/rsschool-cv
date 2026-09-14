@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="header section">
+    <div class="logo">
+      <a href="index.html" class="logo__link">
+        <img class="logo__img" src="./img/favicon-32x32.png" alt="logo">
+      </a>
+    </div>
+    <ul class="nav">
+      <li class="nav__item">
+        <a class="nav__link p" href="#Contact">Contact</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link p" href="#About_Me">About Me</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link p" href="#Skills">Skills</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link p" href="#Code_Example">Code Example</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link p" href="#Experience">Experience</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link p" href="#Education">Education</a>
+      </li>
+      <li class="nav__item">
+        <a class="nav__link p" href="#Languages">Languages</a>
+      </li>
+    </ul>
+  </div>
+  <div class="main section">
+    <ul class="info">
+      <li class="info__item hero">
+        <div class="pic"><img class="img" src="./img/Photo-512x512.png" alt="photo"></div>
+        <span class="name h1">Asan Seaitasanov</span>
+        <span class="profession h4">Full stack developer</span>
+      </li>
+      <li class="info__item">
+        <div class="contacts">
+          <span class="contacts__title h2">Contacts</span>
+          <ul class="contacts_list" id="Contact">
+            <li class="contacts__item"><span class="h3">E-mail:</span> bendevman@gmail.com</li>
+            <li class="contacts__item"><span class="h3">Phone:</span> +79788624792</li>
+            <li class="contacts__item"><span class="h3">Discord:</span> Asan(@bendevman)</li>
+            <li class="contacts__item"><span class="h3">Telegram:</span> @bendevman</li>
+          </ul>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="about-me" id="About_Me">
+          <span class="about-me__title h2">About me</span>
+          <p class="about-me__text p">I am 33, I like watching movies and tv shows in english, eager to learn web development.</p>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="skills">
+          <span class="skills__title h2">Skills</span>
+          <ul class="skills__list" id="Skills">
+            <li class="skills__item">HTML</li>
+            <li class="skills__item">CSS</li>
+            <li class="skills__item">javascript</li>
+            <li class="skills__item">GIT</li>
+          </ul>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="code-example" id="Code_Example">
+          <span class="code-example__title h2">Code Example</span>
+          <pre>
+            <code>
+              class Animal {
+                constructor(name, type){
+                  this.name = name 
+                  this.type = type
+                }
+                toString(){
+                  return `${this.name} is a ${this.type}`    
+                }
+              }
+            </code>
+          </pre>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="Experience">
+
+          <span class="Experience__title h2">Experience</span>
+          <ul class="Experience__list" id="Experience">
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-nonograms.netlify.app/">Nonograms</a>
+            </li>
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-hangman.netlify.app">Hangman</a>
+            </li>
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-coffee-house.netlify.app">Coffee House</a>
+            </li>
+            <li class="Experience__item">
+              <a class="Experience__link h3" href="https://bendevman-christmas-shop.netlify.app/">Christmas Shop</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="Education" id="Education">
+          <span class="Education__title h2">Education</span>
+          <span>Moscow Financial and Industrial University — Bachelor of Applied informatics</span>  
+        </div>
+      </li>
+      <li class="info__item">
+        <div class="Languages">
+          <span class="Languages__title h2">Languages</span>
+          <ul class="Languages__list" id="Languages">
+            <li class="Languages__item">Russian - Native</li>
+            <li class="Languages__item">English - C1</li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="footer section">
+    <a class="github-link" href="https://github.com/bendevman">My github</a>
+    <p class="p">© 2024</p>
+    <a class="rs-link" href="https://rs.school/courses/javascript">
+      <svg class="rs-school-logo-icon">
+        <use xlink:href="img/sprite.svg#rs-school-logo"></use>
+      </svg>
+    </a>
+  </div>
+</body>
+</html>
