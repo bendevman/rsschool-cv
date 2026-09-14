@@ -126,6 +126,7 @@ body {
   }
   .info__item {
     border-bottom: #ccc 1px solid;
+    
   }
   .info__item:last-child {
     border-bottom: none;
@@ -136,6 +137,10 @@ body {
   }
   .contacts__item {
     padding: 5px;
+  }
+  .contacts__title {
+    display: inline-block;
+    padding-bottom: 5px;
   }
   .about-me {
     margin: 10px 100px;
@@ -149,6 +154,29 @@ body {
     display: inline-block;
   }
 }
+.skills {
+  margin: 10px 100px;
+  list-style: disc;
+}
+.skills__title {
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.skills__item {
+  padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- */
 /* footer */
 .footer {
   margin-top: auto;
